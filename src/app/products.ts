@@ -1,3 +1,10 @@
+export interface Product {
+  id: number;
+  name: string;
+  price: number;
+  description: string;
+}
+
 export const products = [
   {
     id: 1,
@@ -8,7 +15,8 @@ export const products = [
   {
     id: 2,
     name: 'Phone 13 plus',
-    descriptias: 'ADFADF',
+    price: 700,
+    description: 'A great phone ưith one ò the bét cameras',
   },
   {
     id: 3,
