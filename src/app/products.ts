@@ -8,20 +8,26 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    name: 'Phone 13 mini',
+    name: 'Phone XL',
     price: 799,
-    description: 'A largee phone with one of the best screens',
+    description: 'A large phone with one of the best screens',
   },
   {
     id: 2,
-    name: 'Phone 13 plus',
-    price: 700,
-    description: 'A great phone ưith one ò the bét cameras',
+    name: 'Phone Mini',
+    price: 699,
+    description: 'A great phone with one of the best cameras',
   },
   {
     id: 3,
-    name: 'Phone Stander',
+    name: 'Phone Standard',
     price: 299,
     description: '',
   },
 ];
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
